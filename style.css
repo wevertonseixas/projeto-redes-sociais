@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: rgb(20, 20, 20);
+    --cor2: rgb(44, 44, 44);
+    --cor3: rgb(73, 73, 73);
+    --cor4: rgb(73, 160, 120);
+}
+body {
+    height: 96vh;
+    position: relative;
+    background-color: var(--cor1);
+    margin: 0;
+}
+
+main {
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background-color: var(--cor2);
+    height: 720px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.img1 {
+    display: inline-block;
+    background-image: url(imgs/perfil.png);
+    background-position: center center;
+    background-size: contain;
+    margin-top: 40px;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1em;
+    color: var(--cor4);
+    margin-top: 5px;
+    margin-bottom: 41px;
+}
+
+.conteiner {
+    height: 320px;
+    position: relative;
+}
+
+.seletores {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 50px;
+    width: 350px;
+}
+
+.linkp {
+    display: inline-block;
+    background-color: var(--cor3);
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+    width: 320px;
+    margin-top: 25px;
+    padding: 15px 0px 15px 0px;
+    border-radius: 10px;
+}
+
+.linkp:hover {
+    background-color: var(--cor4);
+    transition: .3s;
+}
